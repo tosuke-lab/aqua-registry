@@ -51849,10 +51849,6 @@ packages:
         overrides:
           - goos: windows
             format: zip
-        supported_envs:
-          - darwin
-          - windows
-          - amd64
       - version_constraint: "true"
         asset: typst-{{.Arch}}-{{.OS}}.{{.Format}}
         format: tar.xz
@@ -51869,10 +51865,6 @@ packages:
         overrides:
           - goos: windows
             format: zip
-        supported_envs:
-          - darwin
-          - windows
-          - amd64
   - type: go_install
     repo_owner: uber-go
     repo_name: mock
